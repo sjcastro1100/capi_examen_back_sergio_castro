@@ -13,7 +13,7 @@ class CreateUserDomiciliosTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_domicilio', function (Blueprint $table) {
+        Schema::create('user_domicilios', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->string('domicilio');

@@ -6,6 +6,10 @@ use App\Model;
 use Faker\Generator as Faker;
 use App\UserDomicilio;
 
+
+/**
+ * Determina la información aleatoria del domicilio y hace la relación con un usuario
+ */
 $factory->define(App\UserDomicilio::class, function ($faker) {
     return [
         'domicilio' => $faker->streetAddress,

@@ -5,7 +5,7 @@ use Illuminate\Database\Seeder;
 class UserSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Ejecuta la acción de crear 100 usuarios con su domicilio
      *
      * @return void
      */
